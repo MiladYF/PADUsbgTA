@@ -1,0 +1,74 @@
+@keyframes shipLightsAt {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+@keyframes bottomIn {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.bc-1 {
+  animation: bottomIn 2.5s ease-in-out forwards;
+}
+.bc-2 {
+  animation: bottomIn 2.3s ease-in-out forwards;
+}
+.jalan {
+  animation: bottomIn 2.1s ease-in-out forwards;
+}
+.motor {
+  animation: bottomIn 1.8s ease-in-out forwards;
+}
+.as-2 {
+  animation: bottomIn 3.2s ease-in-out forwards;
+}
+.hero-btn {
+  animation: bottomIn 2.3s ease-in-out forwards;
+  opacity: 0;
+}
+.hero-foot {
+  animation: bottomIn 2.3s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes bottomInText {
+  from {
+    transform: translateY(1000px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.main p {
+  animation: bottomInText 2.6s ease-in-out forwards;
+  opacity: 0;
+}
+.main h1 {
+  animation: bottomInText 2.5s ease-in-out forwards;
+  opacity: 0;
+}
+@keyframes topIn {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.as-1 {
+  animation: topIn 2.8s ease-in-out forwards;
+}
+header {
+  animation: topIn 2.8s ease-in-out forwards;
+}

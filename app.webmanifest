@@ -1,0 +1,43 @@
+{
+  "name": "PADU Pertolongan Awalnya Dari U",
+  "short_name": "PADU",
+  "description": "Media edukasi pertolongan dasar lakalantas",
+  "icons": [
+    {
+      "src": "/image-main/logo72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/image-main/logo144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/image-main/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#f0c452",
+  "theme_color": "#1a1617",
+  "display": "standalone",
+  "author": "MiladYF",
+  "orientation": "portrait",
+
+  "screenshots": [
+    {
+      "src": "/image-main/ss2.png",
+      "sizes": "508x903",
+      "type": "image/png"
+    },
+    {
+      "src": "/image-main/ss1.png",
+      "sizes": "1919x895",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

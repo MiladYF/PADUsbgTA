@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image-main/Logonya.png">
+    <title>PADU</title>
+
+    
+    <!-- Font dari google -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <meta name="theme-color" content="#1a1617" />
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="apple-touch-icon" href="image-main/logo512.png">
+    
+            
+    <!--Styles-->
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body onLoad="myFunction()">
+    <div id="loading">
+    
+    </div>
+    <div>
+    <section id="hero">
+      <div class="hero-box">
+        <header>
+          <nav>
+            <ul class="sidebar">
+              <li><a href="#" onclick="hideSidebar(); event.preventDefault();"><span class="material-symbols-outlined">
+  close
+</span></a></li>
+              <li><a href="#section-3" class="nav-items">Materi</a></li>
+              <li><a href="https://mentalcanvas.net/fkjsh4mv3jj" class="nav-items">Pameran</a></li>
+              <li><a href="#section-2" class="nav-items">Perihal</a></li>
+            </ul>
+            <ul class="mainnav">
+          <li><a href="#hero" class="header-logo"><img src="image-main/Logonya.png" class="logo"></a></li>
+          <li class="hideOnMobile"><a href="#section-3" class="nav-items">Materi</a></li>
+          <li class="hideOnMobile"><a href="https://mentalcanvas.net/fkjsh4mv3jj" class="nav-items">Pameran</a></li>
+          <li class="hideOnMobile"><a href="#section-2" class="nav-items">Perihal</a></li>
+          <li class="menu-button"><a href="#" onclick="showSidebar(); event.preventDefault();"><span class="material-symbols-outlined">
+  menu
+</span></a></li>
+        </ul>
+        </nav>
+        </header>
+
+        <div class="main">
+          <img src="images-back/1.png" class="back-img bc-1" />
+          <img src="images-back/2.png" class="back-img bc-2" />
+
+          <div class="hero-text">
+            <p>Dia Bergantung Padamu!</p>
+            <h1>Pertolongan Dasar Kecelakaan</h1>
+          </div>
+
+          <img src="images-back/3.png" class="back-img jalan" />
+          <img src="images-back/5.png" class="back-img motor" />
+
+          <div class="ship-lights-cont">
+            <img src="images-back/4.png" class="back-img asap as-1" />
+
+            <img src="images-back/6.png" class="back-img asap as-2" />
+          </div>
+        </div>
+        <div class="hero-btn-cont">
+          <a href="#section-3" class="hero-btn-cont">
+          <button class="hero-btn">Pelajari Materinya</button>
+          </a>
+          
+        </div>
+
+        <div class="hero-foot">
+          <div class="social-section">
+            <a
+              href="https://www.instagram.com/miladfadilah25/?hl=en"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/milad-fadilah/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <a class="nav-items" href="https://wa.me/6285780386131?text=Halo,%20saya%20ingin%20menanyakan%20tentang%20PADU" target="_blank" >Kontak</a>
+        </div>
+      </div>
+    </section>      
+    <section class="grid grid-8">
+      <figure>
+          <img src="image-main/coth1.png" alt="" class="autoRotate">
+      </figure>
+      
+      <p class="teks">PADU-Pertolongan Awalnya Dari U</p>
+      
+  </section>
+    <section id="section-1">   
+      
+      <div class="section-box">
+        
+        <p class="section-sub hidden">Telusuri Informasi di ruang virtual</p>
+        <h2 class="section-title hidden">Pameran Interaktif</h2>
+        <iframe class="responsive-iframe"
+        src="https://mentalcanvas.net/fkjsh4mv3jj" frameborder="0"
+        title="Proyek TA Semester 8"
+        allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="section-2">
+      <div class="section-box">
+      <div class="content-2-grid">
+        <div class="grid-1">
+          <p class="section-sub hidden">Apabila Anda menemui kecelakaan di jalan</p>
+          <h2 class="section-title hidden">Berikut hal-hal yang tidak boleh dilakukan</h2>
+          <p class="section-description hidden">
+            <ul class="section-description hidden">
+              <li>Jangan hanya menonton dan menimbulkan kemacetan</li>
+              <li>Jangan mengambil gambar/video serta memviralkan melalu medsos</li>
+              <li>Jangan mengambil barang milik korban</li>
+              <li>Jangan menghalangi akses bantuan</li>
+            </ul>
+          </p>
+          <div>
+          <a href="https://heyzine.com/flip-book/0cb1779494.html" target="_blank">
+          <button class="section-btn hidden">Selengkapnya</button> </a></div>
+        </div>
+
+        <div class="grid-2">
+          <img src="image-main/section2GANTI.png" class="section-2-img" alt="Illustrasi Hal Yang Harus Dihindari">
+        </div>
+        
+      </div>
+      </div>
+    </section>
+
+    <section id="section-3">
+      <div class="section-box">
+        <p class="section-sub hidden">Materi Yang Harus Dipelajari</p>
+        <h2 class="section-title hidden">Materi Pembelajaran</h2>
+
+        <div class="content-3-grid">
+          <div class="grid">
+            <h3>Materi 1:</h3>
+            <div class="card hidden">
+              <h4 class="card-title">Hal Pertama Yang Dilakukan</h4>
+              <img src="image-main/card-1.jpeg">
+              <p class="card-description">
+                Prinsip saat melihat kecelakaan di jalan hingga cara untuk memastikan korban masih hidup atau sudah meninggal beserta tindakan lanjutan. 
+              </p>
+              <a href="materi.html" class="card-link">Info Selengkapnya</a>
+            </div>
+
+          </div>
+          <div class="grid">
+            <h3>Materi 2:</h3>
+            <div class="card hidden">
+              <h4 class="card-title">Cara Memindahkan Korban</h4>
+              <img src="image-main/card-2.jpeg">
+              <p class="card-description">
+                Memindahkan korban ke tempat yang lebih aman dengan beberapa kaidah dalam menjaga tulang leher dan memastikan jalan napas tetap terbuka. 
+              </p>
+              <a href="materi2.html" class="card-link">Info Selengkapnya</a>
+            </div>
+          </div>
+          <div class="grid">
+            <h3>Materi 3:</h3>
+            <div class="card hidden">
+              <h4 class="card-title">Informasi Tambahan</h4>
+              <img src="image-main/card-3.jpeg">
+              <p class="card-description">
+                Apabila terdapat pendarahan deras hingga cara mengamankan barang bukti dan lokasi kejadian. 
+              </p>
+              <a href="materi3.html" class="card-link">Info Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <section id="section-4" class="grids grid-9">
+      <div class="clossingan">
+      <div class="autoBlur hidden">SIGAP</div>
+      <div class="autoBlur hidden">SELAMATKAN</div>
+      <div class="autoBlur hidden">NYAWA</div>
+      <div class="autoBlur hidden">SESAMA</div>
+      </div>
+  </section>
+    <section id="footer">
+      <div class="footer">
+        <div class="footer-grid">
+          <a class="footer-logo">P</a>
+        </div>
+        <div class="footer-grid">
+          <h3 class="footer-title">Pintasan Cepat</h3>
+          <a class="footer-items f1" href="#hero">Beranda</a>
+          <a class="footer-items f2" href="#section-3">Materi</a>
+          <a class="footer-items f3" href="#section-1" >Pameran</a>
+          <a class="footer-items f4" href="#section-2" >Perihal</a>
+        </div>
+        <div class="footer-grid">
+          <h3 class="footer-title">Media Sosial</h3>
+          <a class="footer-items f1" href="https://www.instagram.com/miladfadilah25/?hl=en"
+          target="_blank">Instagram</a>
+          <a class="footer-items f2" href="https://www.linkedin.com/in/milad-fadilah/" target="_blank">LinkedIn</a>         
+        </div>
+        <div class="footer-grid">
+          <h3 class="footer-title">Hubungi Saya</h3>
+          <a class="footer-items f1">(+62)85780386131</a>
+          <a class="footer-items f2">Jagakarsa, Jakarta Selatan, INDONESIA</a>
+          <a class="footer-items f3">yusri25milad@gmail.com</a>
+        </div>
+        
+      </div>
+      <p class="copyright">CC Proyek Tugas Akhir</p>
+    </section>
+    <script>
+      var preloader = document.getElementById('loading');
+      function myFunction(){
+        setTimeout(() => {
+          preloader.style.display = 'none';
+        }, 1000);
+        
+      }
+
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+      }
+      function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+      }
+    </script>
+  <script src="register.js">
+    
+    
+  </script>
+  
+  <script defer src="scroll.js"></script>
+  </body>
+</html>

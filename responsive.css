@@ -1,0 +1,505 @@
+/*Mobile Devices*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .bc-1,
+  .bc-2 {
+    display: none;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .jalan,
+  .motor {
+    width: 350%;
+  }
+  .logo {
+    width: 70px;
+    padding-top: 50px;
+    padding-left: 4px;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .nav-items {
+    font-size: 1.1rem;
+    margin-right: 20px;
+  }
+  .as-1,
+  .as-2 {
+    width: 350%;
+  }
+  
+  .main p {
+    font-size: 1.2rem;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+  }
+  .main h1 {
+    font-size: 8vw;
+    line-height: 1.4;
+    letter-spacing: 1px;
+  }
+  .hero-text {
+    transform: translateY(150px);
+  }
+
+  
+  .social-section {
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .hero-btn {
+    bottom: 200px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    height: 80px;
+    width: 300px;
+    padding: 0 40px;
+  }
+  .section-sub {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+  .section-description {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+  .section-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    height: 50px;
+    width: 200px;
+  }
+  /* Section-1 */
+  #section-1 {
+    height: 100vh;
+    text-align: center;
+  }
+  .section-box {
+    flex-direction: column;
+  }
+  /*section 2*/
+  #section-2 {
+    height: 100vh;
+  }
+  .section-box {
+    height: 90vh;
+    margin: 10px 0;
+  }
+  .content-2-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .grid-2 {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .section-2-img {
+    display: none;
+  }
+  /* Section-3 */
+  #section-3 {
+    height: 100vh;
+  }
+  .content-3-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #section-3 .section-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+  .card {
+    height: 120px;
+    padding: 5px;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+  .grid img {
+    width: 20%;
+  }
+  .card-description {
+    display: none;
+  }
+  .card-link {
+    font-size: 0.8rem;
+  }
+  #section-3 h3 {
+    display: none;
+  }
+  /*section 4*/
+
+  #section-4 {
+    height: 100vh;
+  }
+  .clossingan {
+    font-size: 4.5rem;
+  }
+  .clossingan div:nth-child(1) {
+    position: relative;
+    font-size: 6rem;
+    left: 70px;
+  }
+  .clossingan div:nth-child(2) {
+    position: relative;
+    font-size: 3rem;
+    left: 30px;
+  }
+  .clossingan div:nth-child(3) {
+    left: 20px;
+    font-weight: 800;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+/* Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .bc-1,
+  .bc-2 {
+    display: none;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .logo {
+    width: 90px;
+    padding-top: 60px;
+    padding-left: 10px;
+  }
+  .hideOnMobile {
+    display: none;
+  }
+  .menu-button {
+    display: block;
+  }
+  .nav-items {
+    font-size: 1.1rem;
+    margin-right: 20px;
+  }
+  .jalan,
+  .motor,
+  .as-1,
+  .as-2 {
+    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
+  }
+  
+
+  .main p {
+    font-size: 2rem;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+  }
+  .main h1 {
+    font-size: 7vw;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .hero-text {
+    transform: translateY(150px);
+  }
+  .header-logo {
+    margin-left: 20px;
+  }
+  
+  .social-section {
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .hero-btn {
+    bottom: 200px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    height: 80px;
+    width: 300px;
+    padding: 0 40px;
+  }
+  .section-sub {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .section-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+  .section-description {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7;
+  }
+  .section-btn {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    height: 50px;
+    width: 200px;
+  }
+  /* Section-1 */
+  #section-1 {
+    height: 100vh;
+    text-align: center;
+  }
+  .section-box {
+    flex-direction: column;
+  }
+  /*section 2*/
+  #section-2 {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .section-box {
+    height: 90vh;
+    margin: 10px 0;
+  }
+  .content-2-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .grid-2 {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .section-2-img {
+    width: 50%;
+  }
+  /* Section-3 */
+  #section-3 {
+    height: 100vh;
+  }
+  .content-3-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #section-3 .section-title {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+  .card {
+    height: 100%;
+    padding: 5px;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 2px;
+  }
+  .grid img {
+    width: 30%;
+  }
+  .card-description {
+    display: none;
+  }
+  .card-link {
+    font-size: 0.6rem;
+  }
+  #section-3 h3 {
+    display: none;
+  }
+  /*section 4*/
+
+  #section-4 {
+    height: 100vh;
+  }
+  .clossingan {
+    font-size: 7rem;
+    gap: 20px;
+  }
+  .clossingan div:nth-child(1) {
+    position: relative;
+    font-size: 6rem;
+    left: 70px;
+  }
+  .clossingan div:nth-child(2) {
+    position: relative;
+    font-size: 3rem;
+    left: 30px;
+  }
+  .clossingan div:nth-child(3) {
+    left: 15px;
+    font-weight: 800;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+/* Laptop/small screens */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .hero-text {
+    transform: translateY(100px);
+  }
+  .main p {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+  }
+  .main h1 {
+    font-size: 6vw;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+  }
+   /* Section-3 */
+  #section-3 {
+    height: 100%;
+  }
+  .content-3-grid {
+    display: flex;
+    flex-direction: column;
+  }
+  #section-3 .section-title {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+  }
+  .card {
+    height: 100%;
+    padding: 5px;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 2px;
+  }
+  .grid img {
+    width: 10%;
+  }
+  .card-description {
+    display: none;
+  }
+  .card-link {
+    font-size: 0.8rem;
+  }
+  .clossingan {
+    font-size: 8rem;
+    gap: 20px;
+  }
+  .clossingan div:nth-child(1) {
+    position: relative;
+    font-size: 6rem;
+    left: 70px;
+  }
+  .clossingan div:nth-child(2) {
+    position: relative;
+    font-size: 3rem;
+    left: 30px;
+  }
+  .clossingan div:nth-child(3) {
+    left: 15px;
+    font-weight: 800;
+  }
+  .footer {
+    bottom: 0;
+    
+  }
+  
+}
+
+/* Desktop/Large screens */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .hero-text {
+    transform: translateY(100px);
+  }
+  .main p {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+  }
+  .main h1 {
+    font-size: 6vw;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+  }
+  #section-2 {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .section-title {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+  .section-box {
+    height: 90vh;
+    margin: 5px 0;
+  }
+  .card {
+    height: 100%;
+    padding: 5px;
+  }
+  .clossingan {
+    font-size: 9rem;
+    gap: 20px;
+  }
+  .clossingan div:nth-child(1) {
+    position: relative;
+    font-size: 6rem;
+    left: 70px;
+  }
+  .clossingan div:nth-child(2) {
+    position: relative;
+    font-size: 3rem;
+    left: 30px;
+  }
+  .clossingan div:nth-child(3) {
+    left: 15px;
+    font-weight: 800;
+  }
+}
+
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
